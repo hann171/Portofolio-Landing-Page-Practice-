@@ -1,0 +1,92 @@
+body, html{
+    height: calc(100%-2em);
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+body{
+    background-color: crimson;
+}
+
+aside{
+    color: #FFF ;
+    display: grid;
+    grid-template-columns: auto 40px;
+    padding: 2em;
+}
+
+img{
+    width: 40px;
+    cursor: pointer;
+}
+
+figure{
+    margin: 0;
+}
+
+figcaption{
+    margin-top: 10px;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+nav{
+    background-color: white;
+}
+
+.active{
+    position: absolute;
+    display: block;
+    background: white;
+    width: 50%;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    display: block;
+    padding: 1.5em 3em;
+    background-color: rgba(255,255,255,.35);
+}
+
+main{
+    background: #FFF;
+    padding: 1em 1.4em;
+}
+
+h1{
+    margin: 0;
+}
+
+p{
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+.cta{
+    display: block;
+    color:#FFF;
+    background: #0e7fff;
+    text-decoration: none;
+    padding: 8px 50px;
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+    margin: 2em 0;
+}
+
+@media only screen and (min-width:768px){
+
+}

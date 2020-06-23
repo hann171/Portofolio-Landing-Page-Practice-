@@ -9,6 +9,36 @@
     <script src='main.js'></script>
 </head>
 <body>
-    
+    <aside>
+        <figure>
+            <div id="avatar"></div>
+            <figcaption>Hengky Wijaya</figcaption>
+        </figure>
+        <img src="img/open-menu.svg" alt="">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portofolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <main>
+        <h1>Hello World!</h1>
+        <p>Hello wordl, i was born 2 seconds ago.</p>
+        <a href="#" class="cta">My Born Date</a>
+    </main>
+    <script>
+        (function(){
+            var menu = document.querySelector('ul'),
+                menulink = document.querySelector('img');
+            
+            menulink.addEventListener('click', function(e){
+                menu.classList.toggle('active');
+                e.preventDefault();
+            })
+        })();
+    </script>
 </body>
 </html>
